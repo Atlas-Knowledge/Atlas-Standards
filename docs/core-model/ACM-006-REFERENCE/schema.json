@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas Reference Concept",
+  "description": "Abstract reference model.",
+  "type": "object",
+  "required": [
+    "reference"
+  ],
+  "properties": {
+    "reference": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
