@@ -1,103 +1,218 @@
-# Atlas Template Base
+# Atlas Specifications
 
-The official template repository for all Atlas applications.
+> The canonical specification repository for the Atlas Platform.
 
-## Overview
-
-Atlas Template Base provides a standardized foundation for every Atlas project.
-
-Features:
-
-- Next.js 15 App Router
-- TypeScript (Strict Mode)
-- Atlas Design Tokens
-- Mobile-first architecture
-- Production-ready structure
-- Vercel ready
-- Pi Browser compatible
-- Shared project conventions
+![Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
-## Project Structure
+# Overview
 
-```text
-src/
-├── app/
-├── components/
-├── hooks/
-├── lib/
-├── providers/
-├── services/
-├── styles/
-├── types/
-└── utils/
-```
+Atlas Specifications is the official source of truth for the architecture,
+standards, governance, and technical specifications that define the Atlas
+ecosystem.
+
+This repository does **not** contain production code.
+
+Instead, it defines the contracts that every Atlas implementation must follow.
 
 ---
 
-## Getting Started
+# Purpose
 
-Install dependencies:
+The goal of this repository is to ensure that every Atlas component shares the
+same architectural language.
 
-```bash
-npm install
-```
+Specifications are written before implementation.
 
-Run development server:
-
-```bash
-npm run dev
-```
-
-Build:
-
-```bash
-npm run build
-```
-
-Type check:
-
-```bash
-npm run typecheck
-```
+Architecture always precedes code.
 
 ---
 
-## Design System
+# Scope
 
-Atlas uses a centralized Design Tokens system.
+This repository defines:
 
-Location:
+- Architecture
+- Governance
+- Specifications
+- RFC Process
+- Terminology
+- Repository Standards
+- Versioning Policy
+- Security Principles
 
-```text
-src/styles/atlas-design-tokens.css
+---
+
+# Repository Structure
+
+```
+atlas-specs/
+
+├── docs/
+│
+├── docs/architecture/
+│
+├── docs/specifications/
+│
+├── docs/rfcs/
+│
+├── schemas/
+│
+├── examples/
+│
+└── templates/
 ```
 
 ---
 
-## Repository Workflow
+# Architecture Documents
 
-Create new Atlas applications using:
+Architecture documents define the long-term direction of Atlas.
 
-**Use this template**
+Examples:
 
-Never clone this repository manually for production projects.
-
----
-
-## Version
-
-Current Version:
-
-```
-v1.0.0-alpha
-```
+- Architecture Constitution
+- Governance
+- Repository Model
+- Versioning Policy
+- Terminology
+- Federation
+- Security Model
 
 ---
 
-## License
+# Technical Specifications
 
-Private Repository
+Specifications define how Atlas components behave.
 
-Copyright © Atlas
+Examples:
+
+- Entity
+- Relationship
+- Evidence
+- Knowledge Graph
+- Node
+- Registry
+- Runtime
+- Identity
+- Contract
+
+---
+
+# RFC Process
+
+Major architectural changes must go through the RFC process.
+
+Every RFC includes:
+
+- Motivation
+- Design
+- Alternatives
+- Migration Strategy
+- Compatibility Analysis
+
+---
+
+# Design Principles
+
+Atlas follows these principles.
+
+- Knowledge First
+- Federation First
+- Contracts Over Implementations
+- Open Standards
+- Event Driven
+- Zero Trust
+- Horizontal Scalability
+- Documentation First
+
+---
+
+# Canonical Source
+
+This repository is the canonical source for all Atlas specifications.
+
+Whenever implementation differs from documentation, the documentation must be
+reviewed before changing implementation.
+
+---
+
+# Versioning
+
+Specifications follow Semantic Versioning.
+
+Breaking architectural changes require a new major version.
+
+---
+
+# Repository Status
+
+Current Version
+
+```
+v1.0.0
+```
+
+Status
+
+```
+Active
+```
+
+---
+
+# Contributing
+
+Before contributing, please read:
+
+- CONTRIBUTING.md
+- CODE_OF_CONDUCT.md
+- GOVERNANCE.md
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+# Atlas Ecosystem
+
+The Atlas Platform consists of multiple independent repositories.
+
+Examples include:
+
+- atlas-kernel
+- atlas-runtime
+- atlas-registry
+- atlas-network
+- atlas-storage
+- atlas-search
+- atlas-security
+- atlas-ai
+- atlas-sdk
+- atlas-cli
+- atlas-console
+- atlas-template-base
+
+Each repository has a single responsibility.
+
+---
+
+# Philosophy
+
+> Architecture before implementation.
+
+> Contracts before code.
+
+> Knowledge before applications.
+
+> Federation before centralization.
+
+---
+
+Atlas Specifications is the foundation upon which the entire Atlas ecosystem is built.
