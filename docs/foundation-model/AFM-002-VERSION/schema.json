@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Atlas Version",
+  "type":"object",
+  "required":[
+    "major",
+    "minor",
+    "patch"
+  ],
+  "properties":{
+    "major":{"type":"integer","minimum":0},
+    "minor":{"type":"integer","minimum":0},
+    "patch":{"type":"integer","minimum":0},
+    "prerelease":{"type":"string"},
+    "build":{"type":"string"}
+  },
+  "additionalProperties":false
+}
