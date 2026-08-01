@@ -1,0 +1,26 @@
+id: STD-000
+
+title: Atlas Standards Framework
+
+category: Standards
+
+status: Draft
+
+version: 1.0.0
+
+owner: Atlas Standards Council
+
+dependencies:
+  - CAN-001
+  - CAN-002
+  - CAN-003
+
+package:
+  required_files:
+    - README.md
+    - SPEC.md
+    - RATIONALE.md
+    - DECISIONS.md
+    - DEPENDENCIES.md
+    - MANIFEST.yaml
+    - CHANGELOG.md
