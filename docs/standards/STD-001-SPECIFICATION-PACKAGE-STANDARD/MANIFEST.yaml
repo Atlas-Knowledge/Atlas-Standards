@@ -1,0 +1,32 @@
+id: STD-001
+
+title: Specification Package Standard
+
+category: Standards
+
+status: Draft
+
+version: 1.0.0
+
+owner: Atlas Standards Council
+
+depends_on:
+  - STD-000
+
+required_files:
+  - README.md
+  - SPEC.md
+  - MANIFEST.yaml
+  - RATIONALE.md
+  - DECISIONS.md
+  - DEPENDENCIES.md
+  - CHANGELOG.md
+
+recommended_files:
+  - EXAMPLES.md
+  - TESTS.yaml
+  - SCHEMA.json
+  - TYPE-MAPPING.md
+  - COMPATIBILITY.md
+
+assets_directory: assets/
