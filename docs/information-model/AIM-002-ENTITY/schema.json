@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas Entity",
+  "type": "object",
+  "required": [
+    "entity"
+  ],
+  "properties": {
+    "entity": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
